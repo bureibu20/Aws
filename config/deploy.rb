@@ -4,7 +4,7 @@ lock '3.16.0'
 set :application, 'achieve'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, "https://github.com/bureibu20/Aws"
+set :repo_url, https://github.com/bureibu20/Aws
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
